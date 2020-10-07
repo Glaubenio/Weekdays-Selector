@@ -270,7 +270,7 @@ public class WeekdaysPicker extends LinearLayout {
 
     private String getDayText(View v) {
         int day = (int) v.getTag();
-        return getDayLetter(day);
+        return getDayLetter(day).toUpperCase();
     }
 
     private String getDayLetter(int dayOfWeek) {
